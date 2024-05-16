@@ -1,0 +1,174 @@
+642  [background-preinit] INFO  o.h.validator.internal.util.Version
+                Ц HV000001: Hibernate Validator 8.0.1.Final
+849  [main] INFO  edu.mareanexx.Pract21Application
+                Ц Starting Pract21Application using Java 17.0.8 with PID 28192 (C:\Users\79815\OneDrive\–абочий стол\ѕрограммна€ инженери€\4 семестр\Ўаблоны программных платформ €зыка ƒжава\JavaPatternMirea\src\practice21\build\classes\java\main started by 79815 in C:\Users\79815\OneDrive\–абочий стол\ѕрограммна€ инженери€\4 семестр\Ўаблоны программных платформ €зыка ƒжава\JavaPatternMirea\src\practice21)
+851  [main] INFO  edu.mareanexx.Pract21Application
+                Ц No active profile set, falling back to 1 default profile: "default"
+2248 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Multiple Spring Data modules found, entering strict repository configuration mode
+2249 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2271 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport
+                Ц Spring Data JDBC - Could not safely identify store assignment for repository candidate interface edu.mareanexx.repositories.DepartureRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2271 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport
+                Ц Spring Data JDBC - Could not safely identify store assignment for repository candidate interface edu.mareanexx.repositories.PostOfficeRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2272 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Finished Spring Data repository scanning in 19 ms. Found 0 JDBC repository interfaces.
+2277 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Multiple Spring Data modules found, entering strict repository configuration mode
+2277 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2298 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Finished Spring Data repository scanning in 17 ms. Found 2 JPA repository interfaces.
+2807 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                Ц Tomcat initialized with port 8080 (http)
+2814 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                Ц Initializing ProtocolHandler ["http-nio-8080"]
+2816 [main] INFO  o.a.catalina.core.StandardService
+                Ц Starting service [Tomcat]
+2816 [main] INFO  o.a.catalina.core.StandardEngine
+                Ц Starting Servlet engine: [Apache Tomcat/10.1.19]
+2860 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                Ц Initializing Spring embedded WebApplicationContext
+2860 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                Ц Root WebApplicationContext: initialization completed in 1751 ms
+3070 [main] INFO  o.h.jpa.internal.util.LogHelper
+                Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+3115 [main] INFO  org.hibernate.Version
+                Ц HHH000412: Hibernate ORM core version 6.3.1.Final
+3141 [main] INFO  o.h.c.i.RegionFactoryInitiator
+                Ц HHH000026: Second-level cache disabled
+3322 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo
+                Ц No LoadTimeWeaver setup: ignoring JPA class transformer
+3341 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Starting...
+3555 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                Ц HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@664254b6
+3558 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Start completed.
+4284 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                Ц HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+4334 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+4665 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4986 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration
+                Ц Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+5329 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver
+                Ц Exposing 1 endpoint(s) beneath base path '/actuator'
+5375 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                Ц Starting ProtocolHandler ["http-nio-8080"]
+5389 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                Ц Tomcat started on port 8080 (http) with context path ''
+5399 [main] INFO  edu.mareanexx.Pract21Application
+                Ц Started Pract21Application in 5.102 seconds (process running for 5.832)
+5702 [RMI TCP Connection(5)-26.229.68.153] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+5702 [RMI TCP Connection(5)-26.229.68.153] INFO  o.s.web.servlet.DispatcherServlet
+                Ц Initializing Servlet 'dispatcherServlet'
+5703 [RMI TCP Connection(5)-26.229.68.153] INFO  o.s.web.servlet.DispatcherServlet
+                Ц Completed initialization in 1 ms
+11000 [http-nio-8080-exec-1] INFO  edu.mareanexx.aspect.Aspect
+                Ц Parameters: {}
+11000 [http-nio-8080-exec-1] INFO  e.m.services.PostOfficeService
+                Ц Get all post offices: Start
+11130 [http-nio-8080-exec-1] INFO  edu.mareanexx.aspect.Aspect
+                Ц Finish!
+11132 [http-nio-8080-exec-1] INFO  edu.mareanexx.aspect.Aspect
+                Ц List edu.mareanexx.services.PostOfficeService.getPostOfficeList() takes 132ms
+38603 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                Ц Closing JPA EntityManagerFactory for persistence unit 'default'
+38605 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Shutdown initiated...
+38614 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Shutdown completed.
+490  [background-preinit] INFO  o.h.validator.internal.util.Version
+                Ц HV000001: Hibernate Validator 8.0.1.Final
+558  [main] INFO  edu.mareanexx.Pract21Application
+                Ц Starting Pract21Application using Java 17.0.8 with PID 17316 (C:\Users\79815\OneDrive\–абочий стол\ѕрограммна€ инженери€\4 семестр\Ўаблоны программных платформ €зыка ƒжава\JavaPatternMirea\src\practice21\build\classes\java\main started by 79815 in C:\Users\79815\OneDrive\–абочий стол\ѕрограммна€ инженери€\4 семестр\Ўаблоны программных платформ €зыка ƒжава\JavaPatternMirea\src\practice21)
+559  [main] INFO  edu.mareanexx.Pract21Application
+                Ц No active profile set, falling back to 1 default profile: "default"
+1250 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Multiple Spring Data modules found, entering strict repository configuration mode
+1251 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+1273 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport
+                Ц Spring Data JDBC - Could not safely identify store assignment for repository candidate interface edu.mareanexx.repositories.DepartureRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1274 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport
+                Ц Spring Data JDBC - Could not safely identify store assignment for repository candidate interface edu.mareanexx.repositories.PostOfficeRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1275 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Finished Spring Data repository scanning in 20 ms. Found 0 JDBC repository interfaces.
+1281 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Multiple Spring Data modules found, entering strict repository configuration mode
+1282 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1301 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                Ц Finished Spring Data repository scanning in 16 ms. Found 2 JPA repository interfaces.
+1807 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                Ц Tomcat initialized with port 8080 (http)
+1815 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                Ц Initializing ProtocolHandler ["http-nio-8080"]
+1816 [main] INFO  o.a.catalina.core.StandardService
+                Ц Starting service [Tomcat]
+1816 [main] INFO  o.a.catalina.core.StandardEngine
+                Ц Starting Servlet engine: [Apache Tomcat/10.1.19]
+1859 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                Ц Initializing Spring embedded WebApplicationContext
+1859 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                Ц Root WebApplicationContext: initialization completed in 1248 ms
+2067 [main] INFO  o.h.jpa.internal.util.LogHelper
+                Ц HHH000204: Processing PersistenceUnitInfo [name: default]
+2117 [main] INFO  org.hibernate.Version
+                Ц HHH000412: Hibernate ORM core version 6.3.1.Final
+2146 [main] INFO  o.h.c.i.RegionFactoryInitiator
+                Ц HHH000026: Second-level cache disabled
+2333 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo
+                Ц No LoadTimeWeaver setup: ignoring JPA class transformer
+2353 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Starting...
+2570 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                Ц HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@767d9b9
+2572 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Start completed.
+3292 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                Ц HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+3339 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                Ц Initialized JPA EntityManagerFactory for persistence unit 'default'
+3620 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                Ц spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+3863 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration
+                Ц Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+4207 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver
+                Ц Exposing 1 endpoint(s) beneath base path '/actuator'
+4252 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                Ц Starting ProtocolHandler ["http-nio-8080"]
+4265 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                Ц Tomcat started on port 8080 (http) with context path ''
+4275 [main] INFO  edu.mareanexx.Pract21Application
+                Ц Started Pract21Application in 3.993 seconds (process running for 4.627)
+4414 [RMI TCP Connection(3)-26.229.68.153] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                Ц Initializing Spring DispatcherServlet 'dispatcherServlet'
+4414 [RMI TCP Connection(3)-26.229.68.153] INFO  o.s.web.servlet.DispatcherServlet
+                Ц Initializing Servlet 'dispatcherServlet'
+4415 [RMI TCP Connection(3)-26.229.68.153] INFO  o.s.web.servlet.DispatcherServlet
+                Ц Completed initialization in 0 ms
+11407 [http-nio-8080-exec-2] INFO  edu.mareanexx.aspect.Aspect
+                Ц Parameters: marianna310104@mail.ru
+16820 [http-nio-8080-exec-2] INFO  edu.mareanexx.aspect.Aspect
+                Ц Finish!
+16821 [http-nio-8080-exec-2] INFO  edu.mareanexx.aspect.Aspect
+                Ц void edu.mareanexx.services.EmailService.sendEmail(String,String,String) takes 5413ms
+16821 [http-nio-8080-exec-2] INFO  edu.mareanexx.aspect.Aspect
+                Ц Parameters: {}
+16822 [http-nio-8080-exec-2] INFO  e.m.services.PostOfficeService
+                Ц Get all post offices: Start
+16944 [http-nio-8080-exec-2] INFO  edu.mareanexx.aspect.Aspect
+                Ц Finish!
+16945 [http-nio-8080-exec-2] INFO  edu.mareanexx.aspect.Aspect
+                Ц List edu.mareanexx.services.PostOfficeService.getPostOfficeList() takes 124ms
+44518 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                Ц Closing JPA EntityManagerFactory for persistence unit 'default'
+44520 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Shutdown initiated...
+44527 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                Ц HikariPool-1 - Shutdown completed.

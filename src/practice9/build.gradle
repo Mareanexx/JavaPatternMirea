@@ -1,0 +1,43 @@
+plugins {
+    id 'java'
+}
+
+group = 'edu.mareanexx'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+jar {
+    manifest {
+        attributes "Main-Class": "edu.mareanexx.practsjava.pract9.Application"
+    }
+    archiveFileName = "pract9.jar"
+}
+
+tasks.register('moveJarToDocker', Copy) {
+    dependsOn("jar")
+    from 'build/libs/pract9.jar'
+    into 'ForDocker'
+}
+
+tasks.register('buildDockerImage', Exec) {
+    dependsOn("moveJarToDocker")
+    commandLine("docker", "build", "-t", "practicalwork9", "./ForDocker/")
+}
+
+tasks.register("runDockerContainer", Exec) {
+    dependsOn("buildDockerImage")
+    commandLine("docker", "run", "--name", "test-pract9", "-d", "practicalwork9")
+}
+

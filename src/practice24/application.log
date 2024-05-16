@@ -1,0 +1,32 @@
+276  [Test worker] INFO  e.m.services.DepartureService
+                – Add departure: Start
+285  [Test worker] INFO  e.m.services.DepartureService
+                – Departure to add: Departure(id=null, type=mail, departureDate=null, postOffice=null)
+305  [Test worker] INFO  e.m.services.DepartureService
+                – Delete departure by ID: Start. Departure ID1
+319  [Test worker] INFO  e.m.services.DepartureService
+                – Get all departures: Start
+372  [Test worker] INFO  e.m.services.PostOfficeService
+                – Add post office: Start
+373  [Test worker] INFO  e.m.services.PostOfficeService
+                – Post Office to Add: PostOffice(id=null, name=null, cityName=New York, departures=null)
+377  [Test worker] INFO  e.m.services.PostOfficeService
+                – Delete post office by ID: Start. Post Office ID1
+381  [Test worker] INFO  e.m.services.PostOfficeService
+                – Get all post offices: Start
+272  [Test worker] INFO  e.m.services.DepartureService
+                – Add departure: Start
+281  [Test worker] INFO  e.m.services.DepartureService
+                – Departure to add: Departure(id=null, type=mail, departureDate=null, postOffice=null)
+301  [Test worker] INFO  e.m.services.DepartureService
+                – Delete departure by ID: Start. Departure ID1
+314  [Test worker] INFO  e.m.services.DepartureService
+                – Get all departures: Start
+374  [Test worker] INFO  e.m.services.PostOfficeService
+                – Add post office: Start
+375  [Test worker] INFO  e.m.services.PostOfficeService
+                – Post Office to Add: PostOffice(id=null, name=null, cityName=New York, departures=null)
+380  [Test worker] INFO  e.m.services.PostOfficeService
+                – Delete post office by ID: Start. Post Office ID1
+384  [Test worker] INFO  e.m.services.PostOfficeService
+                – Get all post offices: Start
